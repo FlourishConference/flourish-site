@@ -1,9 +1,14 @@
 body{
 	font-family: sans-serif;
+	font-size: 1em;
 }
 
 div{
 	display: block;
+}
+
+a{
+	color: #3A4C7D;
 }
 
 #logo-container{
@@ -26,6 +31,8 @@ div{
 }
 
 #date{
+	font-weight: normal;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -35,4 +42,14 @@ div{
 	text-align: left;
 	font-size: 11pt;
 	line-height: 90%;
+}
+
+.navbar-element{
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+.navbar-element:hover{
+	border-bottom: 5px solid #b897c6;
 }
