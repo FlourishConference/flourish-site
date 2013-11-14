@@ -9,6 +9,7 @@ div{
 
 a{
 	color: #3A4C7D;
+	text-decoration: none;
 }
 
 #logo-container{
@@ -52,4 +53,31 @@ a{
 
 .navbar-element:hover{
 	border-bottom: 5px solid #b897c6;
+}
+
+#main-body{
+	border-top: 1px solid #000000;
+	float: left;
+	width: 78%;
+	margin: auto;
+}
+
+#slideshow{
+	width: 433px;
+	height: 355px;
+	display: inline;
+	float: right;
+	padding: 15px;
+}
+
+#sidebar{
+	float: right;
+	width: 20%;
+	border-top: 1px solid #000000;
+	padding-top: 15px;
+}
+
+.sponsor{
+	margin-bottom: 50px;
+	font-size: 20px;
 }

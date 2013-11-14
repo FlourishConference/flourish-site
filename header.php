@@ -1,9 +1,9 @@
 <div id="header">
 	<div id="logo-container">
-		<div id="date"><h2>DATE</h2></div>
+		<div id="date"><h2>Should be April 5</h2></div>
 		<div id="logo">
 			<a href="./">
-				<img src="" alt="Flourish! logo"/>
+				<img src="images/Flourish2014_logo.jpg" alt="Flourish! logo"/>
 			</a>
 		</div>
 	</div>
