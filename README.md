@@ -1,7 +1,3 @@
-flourish-site
-=============
+#Flourish!
 
-The new flourish site (Work in progress)
-=======
-newFlourish
-===========
+This will soon be the new Flourish website for 2014 and on. It is still a work in progress.
