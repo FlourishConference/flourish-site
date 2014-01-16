@@ -38,9 +38,12 @@
 		</div>
 		<?php
 			include("sidebar.php");
-			include("footer.php");
 		?>
+		<br />
 	</div>
+	<?php
+		include("footer.php");
+	?>
 </body>
 
 </html>

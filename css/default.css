@@ -81,3 +81,14 @@ a{
 	margin-bottom: 50px;
 	font-size: 20px;
 }
+
+#footer{
+	height: 70px;
+	margin-top: -10px;
+	text-align: center;
+}
+
+#disclaimer{
+	font-size: 8pt;
+	text-align: center;
+}
