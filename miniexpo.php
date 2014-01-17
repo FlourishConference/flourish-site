@@ -51,7 +51,7 @@
 				simply use our <a href="http://flourishconf.com/2014/sponsorship_proposal.php">Sponsorship Proposal</a> form 
 				(or click on the big gold button below). Non-profits can put $0.00 for the sponsorship amount. We don't mind!</p>
 
-				<form action="http://flourishconf.com/2014/sponsorship_proposal.php" method="GET">
+				<form action="sponsorship-proposal.php" method="GET">
 				<input type="submit" value="Submit a Sponsorship Proposal!" class="big-button" />
 			</form>
 		</div>

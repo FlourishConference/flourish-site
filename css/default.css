@@ -138,3 +138,20 @@ img {
 	font-size: 8pt;
 	display: block;
 }
+
+.long-img {
+	float: right;
+	border: 5px solid #ccc;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 275px;
+}
+
+.long-img img {
+	width: 275px;
+}
+
+textarea{
+	width: 500px;
+	height: 180px;
+}

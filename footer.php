@@ -1,5 +1,9 @@
-		
 	<div id="footer">
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
 		Past Flourishes<br />
 		<a href="/2013">2013</a> | <a href="/2012">2012</a> | <a href="/2011">2011</a> | <a href="/flourish2010">2010</a> | <a href="/flourish2009">2009</a> | <a href="/flourish2008">2008</a> | <a href="/index2007.php">2007</a><br /><br />
 
