@@ -41,4 +41,4 @@
 			If you have a disability and need an accommodation in order to participate in this 
 			event, please call (312) 413-5070 at least one week prior to the event.
 		</div>
-	</footer>
+	</div>

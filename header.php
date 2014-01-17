@@ -12,7 +12,7 @@
 		<a href="./about.php" class="navbar-element">About</a>
 		<a href="./speakers.php" class="navbar-element">Speakers</a>
 		<a href="./schedule.php" class="navbar-element">Schedule</a>
-		<a href="./miniExpo.php" class="navbar-element">Mini Expo</a>
+		<a href="./miniexpo.php" class="navbar-element">Mini Expo</a>
 		<a href="./sponsorship.php" class="navbar-element">Sponsorship Info</a>
 		<a href="./directions.php" class="navbar-element">Directions</a>
 		<a href="./contact.php" class="navbar-element">Contact</a>

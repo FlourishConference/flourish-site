@@ -11,6 +11,7 @@
 	<div id="main-container" >
 		<?php
 			include("header.php");
+			include("sidebar.php");
 		?>
 		<div id="main-body">
 			<img id="slideshow" src="">
@@ -36,9 +37,6 @@
 				In the mean time, follow <a href="http://twitter.com/flourishconf">@flourishconf</a> for updates and check our website regularly!
 			</p>
 		</div>
-		<?php
-			include("sidebar.php");
-		?>
 		<br />
 	</div>
 	<?php

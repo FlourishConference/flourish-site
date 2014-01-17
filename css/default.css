@@ -60,6 +60,7 @@ a{
 	float: left;
 	width: 78%;
 	margin: auto;
+	font-size: 0.8em;
 }
 
 #slideshow{
@@ -83,6 +84,7 @@ a{
 }
 
 #footer{
+	clear: both;
 	height: 70px;
 	margin-top: -10px;
 	text-align: center;
@@ -91,4 +93,48 @@ a{
 #disclaimer{
 	font-size: 8pt;
 	text-align: center;
+}
+
+.title{
+	text-align: center;
+	font-size: 2em;
+}
+
+img {
+	vertical-align: middle;
+	height:100%;
+	border-style: none;
+}
+
+.left-img {
+	float: left;
+	border: 5px solid #ccc;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.right-img {
+	float: right;
+	border: 5px solid #ccc;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.medium {
+	height: 250px;
+}
+
+.small {
+	width: 100px;
+	height:auto;
+}
+
+.essay {
+	line-height: 150%;
+}
+
+.caption {
+	padding: 5px;
+	font-size: 8pt;
+	display: block;
 }
