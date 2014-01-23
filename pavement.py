@@ -169,6 +169,8 @@ def parse_pages(site):
 # parse an indicidual page
 def parse_page(filename):
   page = parse_file(filename)
+  page['title'] = page['config']['title']
+
   if 'slug' in page['config']:
     page['slug'] = page['config']['slug']
   else:
