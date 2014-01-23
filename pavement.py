@@ -170,7 +170,7 @@ def parse_pages(site):
 def parse_page(filename):
   page = parse_file(filename)
   if 'slug' in page['config']:
-    page['slug'] = page.config['slug']
+    page['slug'] = page['config']['slug']
   else:
     page['slug'] = splitext(page['filename'])[0]
 
@@ -188,8 +188,8 @@ def parse_page(filename):
 # start to put things together
 def make_site(site, env):
   expand_pages(site, env)
-  expand_posts(site, env)
-  expand_drafts(site, env)
+  #expand_posts(site, env)
+  #expand_drafts(site, env)
   copy_assets(site)
 
 
