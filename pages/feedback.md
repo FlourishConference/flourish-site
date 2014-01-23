@@ -2,8 +2,11 @@
 title: Feedback for Flourish!
 slug: /feedback/
 ---
-<h1 class="content-title">Feedback for Flourish! Conference 2014</h1>
-<br />
+
+# Feedback for Flourish! Conference 2014
+
+(Mayhaps embedding a Google Form here would ... uh ... make this less work on the static site...)
+
 <form action="http://flourishconf.com/2014/feedback.php" method="POST">
 <strong>Name (optional)</strong>:<br />
 <input type="text" name="name" value="" />

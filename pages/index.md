@@ -21,4 +21,4 @@ Flourish Conference is **FREE** to attend and there will be free T-Shirts to tho
 in advance. We really appreciate everyone for coming to Flourish Conference for the past 
 several years and we hope to bring another great and educating year!
 
-In the mean time, follow <a href="http://twitter.com/flourishconf">@flourishconf</a> for updates and check our website regularly!
+In the mean time, follow [@flourishconf](http://twitter.com/flourishconf) for updates and check our website regularly!
