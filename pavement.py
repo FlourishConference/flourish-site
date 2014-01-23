@@ -76,7 +76,7 @@ def draft(args):
 def generate_site():
   l.debug("Generating site.")
 
-  env = Environment(loader=FileSystemLoader('./layouts'))
+  env = Environment(loader=FileSystemLoader('./templates'))
   site = {}
   parse_pages(site)
   parse_posts(site)  
@@ -207,7 +207,7 @@ def expand_pages(site, env):
 
     writer.write(template.render(site=site, page=page))
     writer.close()
-    
+
 
 # expand posts, creating posts and archives
 def expand_posts(site, env):
