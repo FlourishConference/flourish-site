@@ -1,37 +1,37 @@
-body{
+body  {
 	font-family: sans-serif;
-	font-size: 1em;
+	font-size: 18px;
 }
 
-div{
+div  {
 	display: block;
 }
 
-a{
+a  {
 	color: #3A4C7D;
 	text-decoration: none;
 }
 
-#logo-container{
+#logo-container  {
 	position: relative;
 }
 
-#main-container{
+#main-container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 }
 
-#logo{
+#logo {
 	width: 70%;
 }
 
-#logo img{
+#logo img {
 	width: 300px;
 	height: 100px;
 }
 
-#date{
+#date {
 	font-weight: normal;
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 	position: absolute;
@@ -39,23 +39,23 @@ a{
 	right: 0;
 }
 
-#navbar{
+#navbar {
 	text-align: left;
 	font-size: 11pt;
 	line-height: 90%;
 }
 
-.navbar-element{
+.navbar-element {
 	padding-right: 5px;
 	padding-left: 5px;
 	text-decoration: none;
 }
 
-.navbar-element:hover{
+.navbar-element:hover {
 	border-bottom: 5px solid #b897c6;
 }
 
-#main-body{
+#main-body {
 	border-top: 1px solid #000000;
 	float: left;
 	width: 78%;
@@ -63,7 +63,7 @@ a{
 	font-size: 0.8em;
 }
 
-#slideshow{
+#slideshow {
 	width: 433px;
 	height: 355px;
 	display: inline;
@@ -71,75 +71,75 @@ a{
 	padding: 15px;
 }
 
-#sidebar{
+#sidebar {
 	float: right;
 	width: 20%;
 	border-top: 1px solid #000000;
 	padding-top: 15px;
 }
 
-.sponsor{
+.sponsor {
 	margin-bottom: 50px;
 	font-size: 20px;
 }
 
-#footer{
+#footer {
 	clear: both;
 	height: 70px;
 	margin-top: -10px;
 	text-align: center;
 }
 
-#disclaimer{
+#disclaimer {
 	font-size: 8pt;
 	text-align: center;
 }
 
-.title{
+.title {
 	text-align: center;
 	font-size: 2em;
 }
 
-img {
+img  {
 	vertical-align: middle;
 	height:100%;
 	border-style: none;
 }
 
-.left-img {
+.left-img  {
 	float: left;
 	border: 5px solid #ccc;
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
 
-.right-img {
+.right-img  {
 	float: right;
 	border: 5px solid #ccc;
 	margin-left: 20px;
 	margin-bottom: 10px;
 }
 
-.medium {
+.medium  {
 	height: 250px;
 }
 
-.small {
+.small  {
 	width: 100px;
 	height:auto;
 }
 
-.essay {
+.essay  {
 	line-height: 150%;
 }
 
-.caption {
+.caption  {
 	padding: 5px;
 	font-size: 8pt;
 	display: block;
 }
 
-.long-img {
+.long-img  {
 	float: right;
 	border: 5px solid #ccc;
 	margin-left: 20px;
@@ -147,11 +147,11 @@ img {
 	width: 275px;
 }
 
-.long-img img {
+.long-img img  {
 	width: 275px;
 }
 
-textarea{
+textarea {
 	width: 500px;
 	height: 180px;
 }
