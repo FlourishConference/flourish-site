@@ -1,10 +1,8 @@
 ---
 title: Flourish!
 slug: /
-layout: page.html
+layout: index-14.html
 ---
-
-<img id="slideshow" src="">
 
 Welcome to the Flourish! 2014 Open Source Conference website! 
 This is Flourish Conference's **eighth** annual student-led conference hosted 
