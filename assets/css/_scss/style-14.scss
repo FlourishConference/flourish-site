@@ -40,14 +40,14 @@ a {
 header {
   //color: $header-text;
   color: white;
-  padding: 0 0 2em;
+  padding: 0 0 .5em;
   margin: 0 0 2em;
   background: $blue;
 
   nav {
     @extend .container;
 
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
 
     $border-size: 1px;
     ul {
