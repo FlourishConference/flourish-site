@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>{{ page.title }}</title>
+  <link href="http://flourishconf.com/2014/images/favicon.gif" rel="shortcut icon">
+  <link rel="stylesheet" href="/assets/css/style-14.css" type="text/css" />
+</head>
+<body id="index">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/speakers/">Speakers</a></li>
+        <li><a href="/schedule/">Schedule</a></li>
+        <li><a href="/miniexpo/">Exposition</a></li>
+        <li><a href="/sponsor/">Sponsorship Info</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      {% block header %}
+        <h1><span class="home"><a href="/"><img src="/assets/images/2014/tree-2014-white.png" /></a></span> {% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
+
+      {% endblock %}
+    </div>
+  </header>
+
+  <div class="container">
+    <article>
+      {% block main %}
+        {{ page.content }}
+      {% endblock %}
+    </article>
+  </div>
+
+
+  {% block prefooter %}{% endblock %}
+  <footer>
+    {% block footer %}
+      <div class="container">
+        <h3>Past Flourishes</h3>
+        <p><a href="/2013">2013</a> | <a href="/2012">2012</a> | <a href="/2011">2011</a> | <a href="/flourish2010">2010</a> | <a href="/flourish2009">2009</a> | <a href="/flourish2008">2008</a> | <a href="/index2007.php">2007</a></p>
+
+        <h3>Disclaimer</h3>
+        <p>
+          The statements, opinions, and ideas conveyed in this program do not necessarily 
+          express the position of the University of Illinois at Chicago.
+          If you have a disability and need an accommodation in order to participate in this 
+          event, please call (312) 413-5070 at least one week prior to the event.
+        </p>
+      </div>
+    {% endblock %}
+  </footer>
+
+</body>
+</html>

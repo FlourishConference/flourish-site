@@ -1,0 +1,83 @@
+$blue: #3a4c7d;
+
+@import "http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic";
+
+body {
+  font-family: Roboto, "Droid Sans", sans-serif;
+  font-size: 18px
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+header {
+  margin: 2em 0;
+  padding: 0 0 1em;
+  border-bottom: 1px solid black;
+
+  #logo {
+    float: left;
+
+    img {
+      //width: 300px;
+      height: 100px;
+    }
+  }
+
+  #date {
+    float: right;
+
+    h2 { 
+      font-weight: 400; 
+      line-height: 100px;
+    }
+  }
+
+  nav {
+    clear: both;
+    padding-top: 1em;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        //&:first-child { a { padding-left: 0px !important; } }
+
+        a {
+          margin: 10px 15px 0 0;
+          padding-bottom: 2px;
+
+          &:hover { border-bottom: 5px solid #b897c6; }
+        }
+      }
+    }
+  }
+}
+
+article {
+  width: calc(100% - 220px);
+  float: left;
+}
+
+aside {
+  width: 200px;
+  float: right;
+}
+
+footer {
+  clear: both;
+  padding-top: 4em;
+}
