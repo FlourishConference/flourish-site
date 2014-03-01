@@ -9,7 +9,7 @@ slug: /miniexpo/
 <figure class="right">
 	<img src="http://flourishconf.com/2014/images/miniexpo_ps1.jpg" class="medium" alt="Pumping Station: One at Flourish Conference 2011." />
 	<figcaption>
-		[Pumping Station: One](http://pumpingstationone.org/) at Flourish Conference 2011.
+		<a href="http://pumpingstationone.org/">Pumping Station: One</a> at Flourish Conference 2011.
 	</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Flourish! Open Source Conference is not just a conference with talks and worksho
 <figure class="left">
 	<img src="http://flourishconf.com/2014/images/miniexpo_barcamp.jpg" class="medium" alt="Barcamp Chicago at Flourish Conference 2011.">
 	<figcaption>
-		[Barcamp Chicago](http://barcampchicago.org/) at Flourish Conference 2011.
+		<a href="http://barcampchicago.org/">Barcamp Chicago</a> at Flourish Conference 2011.
 	</figcaption>
 </figure>
 
