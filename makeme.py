@@ -4,7 +4,7 @@ import argparse
 import logging
 import re
 
-import misaka as m
+import markdown2 as m
 
 from jinja2 import Environment, FileSystemLoader
 from os import makedirs, mkdir, walk
@@ -50,9 +50,9 @@ def parse_file(filename):
   f.close()
 
   try:
-    frontmatter, bodymatter = re.search(r'\A---\s+^(.+?)$\s+---\s*(.*)\Z', contents, re.M | re.S).groups()
-    parsed['content'] = genHTML(bodymatter)
-    parsed['config'] = yaml_load(frontmatter)
+    html = genHTML(contents)
+    parsed['content'] = html
+    parsed['config'] = html.metadata 
     parsed['filename'] = basename(filename)
     parsed['changed'] = getmtime(filename)
 
@@ -64,11 +64,7 @@ def parse_file(filename):
 
 # turn markdown into HTML
 def genHTML(markdown):
-  return m.html(markdown,
-                extensions=m.EXT_FENCED_CODE | m.EXT_AUTOLINK | m.EXT_STRIKETHROUGH | m.EXT_SUPERSCRIPT,
-                render_flags=m.HTML_SMARTYPANTS
-               )
-
+  return m.markdown(markdown, extras=['fenced-code-blocks', 'metadata', 'smarty-pants'])
 
 # find all files in directory `directory` and all subdirectories therein.
 # using those files, parse them using `parse_fn`, and add the parsed contents
@@ -76,6 +72,9 @@ def genHTML(markdown):
 def parse_dir(container, directory, parse_fn):
   for root, dirs, files in walk(directory):
     for f in files:
+      if f[0] == ".":
+        continue
+
       container.append(parse_fn(root + '/' + f))
     for d in dirs:
       parse_dir(container, d, parse_fn)

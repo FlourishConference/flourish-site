@@ -1,7 +1,7 @@
 ---
 title: Flourish!
 slug: /
-layout: index-14.html
+layout: coming-soon-15.html
 ---
 
 Welcome to the Flourish! 2014 Open Source Conference website! 
