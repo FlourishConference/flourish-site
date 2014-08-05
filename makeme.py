@@ -11,7 +11,6 @@ from os import makedirs, mkdir, walk
 from os.path import basename, exists, getmtime, split
 from shutil import copy2
 from sys import exit
-from yaml import load as yaml_load
 
 
 
